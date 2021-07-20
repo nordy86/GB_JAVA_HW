@@ -3,7 +3,7 @@ import java.util.Scanner;
 Домашнее задание №1
 Щукин Андрей
  */
-public class Lesson1 {
+public class Hw1 {
 
     public static void main (String [] args) {
         System.out.println("**** Задание 2 ************");
@@ -18,6 +18,7 @@ public class Lesson1 {
         System.out.println("**** Задание 5 ************");
         compareNumbers(1,2);
     }
+
 
     public static void printThreeWords() {
         System.out.println("Orange");
@@ -41,13 +42,13 @@ public class Lesson1 {
         scanner.close();
     }
     public static void printColor(int value) {
-      if (value <=0) {
-          System.out.println("RED");
-      } else if (value >= 1 && value <= 100) {
-          System.out.println("YELLOW");
-      } else {
-          System.out.println("GREEN");
-      }
+        if (value <=0) {
+            System.out.println("RED");
+        } else if (value >= 1 && value <= 100) {
+            System.out.println("YELLOW");
+        } else {
+            System.out.println("GREEN");
+        }
     }
     public static void compareNumbers(int a, int b) {
         if (a >= b) {
@@ -57,4 +58,3 @@ public class Lesson1 {
         }
     }
 }
-
