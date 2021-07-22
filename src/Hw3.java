@@ -2,7 +2,7 @@ import java.util.Arrays;
 import java.util.Random;
 
 /*
-Домашнее задание №3
+Домашнее задание №3 Работа над ошибками
 Щукин Андрей
  */
 public class Hw3 {
@@ -75,7 +75,8 @@ public class Hw3 {
 
     public static void ex5(int len, int initialValue) {
         int[] arr5 = new int[len];
-        Arrays.fill(arr5,initialValue); //Данный метод заполняет указанный массив переданным значением
+        Arrays.fill(arr5,initialValue); //Данный метод заполняет указанный массив переданным значением.
+//        Альтернативаный вариант:
 //        for (int i = 0; i < arr5.length; i++) {
 //            arr5[i] = initialValue;
 //        }
